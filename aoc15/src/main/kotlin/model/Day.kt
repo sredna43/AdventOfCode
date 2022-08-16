@@ -11,8 +11,8 @@ import util.InputReader
  */
 abstract class Day<T1: Any, T2: Any>(private val name: String) {
     val inputReader = InputReader()
-    var partOneAnswer = 0
-    var partTwoAnswer = 0
+    var partOneAnswer: Any = 0
+    var partTwoAnswer: Any = 0
     abstract fun partOne(input: T1): T2
     abstract fun partTwo(input: T1): T2
     abstract fun solve()
