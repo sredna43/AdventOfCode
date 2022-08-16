@@ -1,3 +1,3 @@
 # Advent Of Code
 
-My work for the advent of code events
+My solutions for https://adventofcode.com/
